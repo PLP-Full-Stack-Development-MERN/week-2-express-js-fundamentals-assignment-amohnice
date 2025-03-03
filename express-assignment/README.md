@@ -5,19 +5,22 @@
 1. Clone the repository:
    ```sh
    git clone https://github.com/PLP-Full-Stack-Development-MERN/week-2-express-js-fundamentals-assignment-amohnice.git
-   cd express-assignment
    
-2. Install dependencies:
+2. Navigate into the project directory:
+    ```sh
+    cd express-assignment
+   
+3. Install dependencies:
+   ```sh
+   npm install
 
-       npm install
+4. Create a .env file with the following content:
+    ```sh
+    PORT=5000
 
-3. Create a .env file with the following content:
-
-         PORT=5000
-
-4. Run the server:
-
-         node index.js
+5. Run the server:
+    ```sh
+    node index.js
 
 ## API Endpoints
 
